@@ -47,7 +47,7 @@ $ vi /etc/systemd/system/code-server.service
 Description=Visual Studio Code Server
 
 [Service]
-Environment="PASSWORD=mxl12#$cod" 
+Environment="PASSWORD=yourPasswd" 
 Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/code-server" 
 WorkingDirectory=/opt/code-server
 User=root
